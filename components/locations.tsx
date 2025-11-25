@@ -79,14 +79,16 @@ export default function Locations() {
                   <Zap className="text-[#0d5f3f]" size={24} />
                   <h3 className="font-bold text-[#0d5f3f]">50+ MW Installed</h3>
                 </div>
-                <p className="text-gray-600 text-sm">India's clean energy contribution</p>
+                <p className="text-gray-600 text-sm">
+                  India&apos;s clean energy contribution
+                </p>
               </div>
 
             </div>
           </div>
         </div>
 
-        {/* LOCATIONS CARDS - PREMIUM */}
+        {/* LOCATIONS CARDS */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
 
           {locations.map((loc, index) => (
