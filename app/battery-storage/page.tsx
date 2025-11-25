@@ -51,8 +51,7 @@ export default function BatteryStorage() {
             Battery Storage Solutions
           </h1>
           <p className="text-xl md:text-2xl text-green-200 mb-10 max-w-2xl leading-relaxed">
-            Maximize your solar power by storing clean energy and using it
-            whenever you need it.
+            Maximize your solar power by storing clean energy and using it whenever you need it.
           </p>
 
           <Link
@@ -100,7 +99,9 @@ export default function BatteryStorage() {
                   <h3 className="text-xl font-bold text-[#0d5f3f] mb-3">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">{item.desc}</p>
+                  <p className="text-gray-600 leading-relaxed">
+                    {item.desc.replace(/'/g, "&apos;")}
+                  </p>
                 </div>
               );
             })}
@@ -117,8 +118,7 @@ export default function BatteryStorage() {
             Ready to Unlock Full Solar Power?
           </h2>
           <p className="text-lg text-green-100 mb-10">
-            Store, save, and use solar energy anytime with MAVEN's premium
-            storage solutions.
+            Store, save, and use solar energy anytime with MAVEN&apos;s premium storage solutions.
           </p>
 
           <Link
