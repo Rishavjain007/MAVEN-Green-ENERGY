@@ -1,5 +1,14 @@
+"use client";
+
 import Navigation from "@/components/navigation";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import type { ReactNode } from "react";
+
+interface InfoCardProps {
+  icon: ReactNode;
+  title: string;
+  text: ReactNode;
+}
 
 export default function ContactPage() {
   return (
@@ -22,28 +31,24 @@ export default function ContactPage() {
       {/* CONTENT SECTION */}
       <section className="py-16 px-4 bg-gradient-to-b from-white to-green-50">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+          
           {/* LEFT SIDE — INFO CARDS */}
           <div>
-            <h2 className="text-2xl font-bold text-[#0d5f3f] mb-6">
-              Get In Touch
-            </h2>
+            <h2 className="text-2xl font-bold text-[#0d5f3f] mb-6">Get In Touch</h2>
 
             <div className="space-y-6">
-              {/* Phone */}
               <InfoCard
                 icon={<Phone size={22} className="text-[#0d5f3f]" />}
                 title="Phone"
                 text="1-800-SOLAR-SQ (1-800-765-2777)"
               />
 
-              {/* Email */}
               <InfoCard
                 icon={<Mail size={22} className="text-[#0d5f3f]" />}
                 title="Email"
                 text="info@maven.com"
               />
 
-              {/* Address */}
               <InfoCard
                 icon={<MapPin size={22} className="text-[#0d5f3f]" />}
                 title="Address"
@@ -56,7 +61,6 @@ export default function ContactPage() {
                 }
               />
 
-              {/* Hours */}
               <InfoCard
                 icon={<Clock size={22} className="text-[#0d5f3f]" />}
                 title="Hours"
@@ -117,7 +121,6 @@ export default function ContactPage() {
                   bg-[#fff]
                   hover:bg-[#00ff88] text-[#05351f]
                   transition-all 
-                  hover-text-white
                   shadow-lg hover:shadow-green-400/40
                 "
               >
@@ -132,15 +135,7 @@ export default function ContactPage() {
 }
 
 /* Small reusable info card component */
-function InfoCard({
-  icon,
-  title,
-  text,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  text: any;
-}) {
+function InfoCard({ icon, title, text }: InfoCardProps) {
   return (
     <div
       className="
@@ -154,6 +149,7 @@ function InfoCard({
         {icon}
         <h3 className="font-semibold text-lg text-[#0d5f3f]">{title}</h3>
       </div>
+
       <p className="text-gray-600 text-sm leading-relaxed">{text}</p>
     </div>
   );
