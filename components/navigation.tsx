@@ -94,8 +94,6 @@ export default function Navigation() {
 
   const moreItems: MenuItem[] = [
     { label: "About Us", href: "/about" },
-    { label: "Careers", href: "/careers" },
-    { label: "FAQ", href: "/faq" },
   ];
 
   return (
@@ -185,7 +183,7 @@ export default function Navigation() {
               />
 
               <Link
-                href="/quote"
+                href="/contact"
                 className="block text-center bg-gradient-to-r from-green-600 to-emerald-500 text-white py-3 rounded-xl shadow-lg hover:scale-105 transition"
               >
                 Get Quote →

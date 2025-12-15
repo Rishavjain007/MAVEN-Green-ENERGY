@@ -6,14 +6,14 @@ import Footer from "@/components/footer"
 import Navigation from "@/components/navigation"
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://maven-green-energy.vercel.app'),
-  title: "Maven Green Energy - Sustainable Solar Solutions",
-  description: "Leading provider of residential, commercial, and industrial solar energy solutions. Harness the power of the sun with Maven Green Energy for a sustainable future.",
-  generator: "Maven Green Energy",
+  metadataBase: new URL('https://TECHBRO24-green-energy.vercel.app'),
+  title: "TECHBRO24 Green Energy - Sustainable Solar Solutions",
+  description: "Leading provider of residential, commercial, and industrial solar energy solutions. Harness the power of the sun with TECHBRO24 Green Energy for a sustainable future.",
+  generator: "TECHBRO24 Green Energy",
   keywords: ["solar energy", "renewable energy", "solar panels", "green energy", "sustainable energy", "solar solutions"],
-  authors: [{ name: "Maven Green Energy" }],
+  authors: [{ name: "TECHBRO24 Green Energy" }],
   openGraph: {
-    title: "Maven Green Energy - Sustainable Solar Solutions",
+    title: "TECHBRO24 Green Energy - Sustainable Solar Solutions",
     description: "Transform your energy future with our innovative solar solutions",
     type: "website",
   },

@@ -42,7 +42,7 @@ export default function ResidentialPage() {
       <section className="py-16 px-4 bg-gradient-to-b from-white to-green-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-[#0d5f3f] mb-10 text-center">
-            Why Homeowners Choose MAVEN
+            Why Homeowners Choose TECHBRO24
           </h2>
 
           <div className="grid md:grid-cols-3 gap-10">
@@ -90,7 +90,7 @@ export default function ResidentialPage() {
         <div className="max-w-7xl mx-auto bg-gradient-to-r from-[#0d5f3f] to-[#09623d] text-white p-14 rounded-2xl shadow-xl text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Go Solar?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto text-green-100">
-            Join thousands of homeowners saving money with MAVEN. Get a free
+            Join thousands of homeowners saving money with TECHBRO24. Get a free
             consultation today.
           </p>
 

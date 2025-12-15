@@ -34,7 +34,7 @@ export default function Locations() {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0d5f3f] mb-4">
-            MAVEN Locations Across India
+            TECHBRO24 Locations Across India
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Serving 25+ cities with 10,000+ successful solar installations nationwide

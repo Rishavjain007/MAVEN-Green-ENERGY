@@ -58,7 +58,7 @@ export default function Gallery() {
             Solar Projects Gallery
           </h2>
           <p className="text-lg text-gray-600 mt-3 max-w-3xl mx-auto">
-            Explore real installations and renewable energy projects by MAVEN
+            Explore real installations and renewable energy projects by TECHBRO24
             Green Energy
           </p>
         </div>

@@ -65,7 +65,7 @@ export default function OurPresence() {
       <section className="py-16 px-4 bg-gradient-to-b from-white to-green-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-[#0d5f3f] text-center mb-4">
-            MAVEN Locations
+            TECHBRO24 Locations
           </h2>
           <p className="text-lg text-center text-gray-700 mb-10">
             We offer solar services in 20+ Indian cities — expanding every day.

@@ -43,7 +43,7 @@ export default function BlogPage() {
       <div className="pt-36 pb-10 bg-gradient-to-br from-green-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-extrabold text-[#0d5f3f] mb-4">
-            MAVEN <span className="text-[#00c47d]">Blog</span>
+            TECHBRO24 <span className="text-[#00c47d]">Blog</span>
           </h1>
           <p className="text-xl text-gray-600 mb-14 max-w-2xl">
             Stay updated with the latest solar energy tips, news, and industry insights.

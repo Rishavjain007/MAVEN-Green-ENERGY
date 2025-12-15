@@ -51,7 +51,7 @@ export default function WhyChoose() {
         {/* Heading */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d5f3f] drop-shadow-sm tracking-tight">
-            Why Choose <span className="text-[#00cc77]">MAVEN Green Energy</span>
+            Why Choose <span className="text-[#00cc77]">TECHBRO24 Green Energy</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mt-4">
             Leading India’s solar revolution with future-ready technology and trusted service.

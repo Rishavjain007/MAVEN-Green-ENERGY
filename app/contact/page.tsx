@@ -46,7 +46,7 @@ export default function ContactPage() {
               <InfoCard
                 icon={<Mail size={22} className="text-[#0d5f3f]" />}
                 title="Email"
-                text="info@maven.com"
+                text="info@TECHBRO24.com"
               />
 
               <InfoCard

@@ -118,7 +118,7 @@ export default function BatteryStorage() {
             Ready to Unlock Full Solar Power?
           </h2>
           <p className="text-lg text-green-100 mb-10">
-            Store, save, and use solar energy anytime with MAVEN&apos;s premium storage solutions.
+            Store, save, and use solar energy anytime with TECHBRO24&apos;s premium storage solutions.
           </p>
 
           <Link

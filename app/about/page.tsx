@@ -13,11 +13,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           <h1 className="text-5xl md:text-6xl font-extrabold text-[#0d5f3f] mb-6 leading-tight">
-            About <span className="text-[#00c47d]">MAVEN</span>
+            About <span className="text-[#00c47d]">TECHBRO24</span>
           </h1>
 
           <p className="text-xl text-gray-600 mb-14 max-w-3xl leading-relaxed">
-            For over a decade, MAVEN has been leading India’s solar transformation — empowering homes,
+            For over a decade, TECHBRO24 has been leading India’s solar transformation — empowering homes,
             businesses, and industries to adopt clean, affordable, and sustainable energy solutions.
           </p>
 

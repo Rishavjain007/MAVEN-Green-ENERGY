@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
  
 export const runtime = 'edge'
-export const alt = 'MAVEN Green Energy - Sustainable Solar Solutions'
+export const alt = 'TECHBRO24 Green Energy - Sustainable Solar Solutions'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
  
@@ -30,7 +30,7 @@ export default async function OgImage() {
             marginBottom: '20px',
           }}
         >
-          MAVEN Green Energy
+          TECHBRO24 Green Energy
         </div>
         <div
           style={{
